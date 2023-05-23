@@ -17,7 +17,6 @@
             <div class="nav-content-div" >
                 <ul>
                     <li class="nav-content"><a href="../FYP Prototype Application/index.html"><i class="fa-brands fa-android"></i>FYP Application Design</a></li>
-                    <!-- <li class="nav-content"><a href="ecommerce website/index.html"><i class="fa-solid fa-at"></i>Ecommerce Website</a></li> -->
                     <li class="nav-content"><a href="#trips"><i class="fa-solid fa-plane-departure"></i>Trips</a></li>
                     <li class="nav-content"><a href="Tour Schedule/tourschedule.html"><i class="fa-solid fa-calendar-minus"></i>Trip Schedule</a></li>
                     <li class="nav-content"><a href="Form/form.html"><i class="fa-solid fa-book-open"></i>Trip Booking</a></li>
@@ -27,8 +26,22 @@
                 </ul>
             </div>
 
+            <div class="resp-nav">
+                <button onclick="btnNav()"><i class="fa-solid fa-bars"></i></button>
+            </div>
+
             
         </nav>
+
+        <div class="resp-nav-div" id="respDiv">
+            <a href="../FYP Prototype Application/index.html">FYP Application Design</a>
+            <a href="#trips">Trips</a>
+            <a href="Tour Schedule/tourschedule.html">Trip Schedule</a>
+            <a href="Form/form.html">Trip Booking</a>
+            <a href="Signin/signin.html">Sign in</a>
+            <a href="../Movie Recommendation/index.html">Movie Recommendation App</a>
+
+        </div>
 
         <div class="multi-btn-div">
             <div >
@@ -63,15 +76,8 @@
         
         <div class="search-cont">
             <h1>Tours for Everywhere. Find Now!</h1>
-            <!-- <p>Explore from 901 tour packages in Paksitan and abroad.</p> -->
             <input class="search-bar" placeholder='Where?' type="search">
-            <!-- <p>Find on a location such as Lahore, Islamabad, Multan, Skardu etc.</p> -->
         </div>
-
-        <!-- <div class="main-text">
-            <p>Pakistan is a country which Allah Almighty has given a diverse geography and diverse climate. Pakistan has different people, different languages and regions that make Pakistan a home of many colours. Pakistan has deserts, lush green areas, plains, mountains, forests, cold and hot areas, beautiful lakes, islands and much more. That is why Pakistan attracted 1 million tourists in 2012. Due to the law and order situation, tourism in Pakistan has been severely affected, but now the situation has returned to normal and in good numbers. People have turned to Pakistan.The biggest boost to tourism in Pakistan came in the 1970s when the country was booming and like other industries, tourism in Pakistan was also booming. Millions of tourists from abroad used to come to Pakistan.
-            </p>
-        </div> -->
 
         <div class="tour-img-head" id="trips">
             <h1 class="dest-heading">Tour Destinations</h1>
@@ -185,5 +191,6 @@
                <a class="home-link" href="index.html"><img src="images/Logo-img.png" alt="main logo" ></a>
         </footer>
 
+        <script src="app.js"></script>
     </body>
 </html>
